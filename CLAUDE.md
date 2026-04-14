@@ -10,12 +10,18 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - [x] `AndroidManifest.xml` — permissões e service declarados
 - [x] `libs.versions.toml` — CameraX 1.3.4, Ktor 2.3.12, slf4j adicionados
 
-### Pendente (fazer com Claude)
-- [ ] **Gradle Sync** — Android Studio precisa baixar o Gradle 8.13 (~130MB). Se falhar por timeout, baixar manualmente: `https://services.gradle.org/distributions/gradle-8.13-bin.zip` e colocar em `%USERPROFILE%\.gradle\wrapper\dists\gradle-8.13-bin\<hash>\`
+### Concluído em 2026-04-13
+- [x] **Repositório GitHub criado** — `https://github.com/joaohenriquefsp/DioupeCamApp-` (branch `main`)
+- [x] **Todos os arquivos commitados e pushed** — 43 arquivos, `.idea/` excluído corretamente do repo
+- [x] **Arquitetura revisada** — estrutura atual adequada para o escopo do app (sem necessidade de Clean Architecture)
+
+### Pendente (retomar)
+- [ ] **Gradle Sync** — Android Studio precisa baixar o Gradle 8.13 (~130MB). Se falhar por timeout, baixar manualmente e colocar em `%USERPROFILE%\.gradle\wrapper\dists\gradle-8.13-bin\<hash>\`
 - [ ] **Build e install no dispositivo** — rodar `./gradlew installDebug` ou usar o botão Run no Android Studio
 - [ ] **Testar MJPEG** — abrir `http://IP:8080/video` no browser
 - [ ] **Testar H.264** — rodar `ffplay -f h264 tcp://IP:8554` no PC
 - [ ] **Verificar uso simultâneo** de `ImageAnalysis` + `Preview` no dispositivo físico (alguns aparelhos têm limitações)
+- [ ] **Melhorar UI** — adicionar animação Lottie (personagem filmando/webcam), layout com cards e melhor tipografia
 
 ## O que é este projeto
 
