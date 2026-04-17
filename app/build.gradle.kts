@@ -68,6 +68,9 @@ dependencies {
     // SLF4J → Android Log
     implementation(libs.slf4j.android)
 
+    // Lottie animations
+    implementation(libs.lottie.compose)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

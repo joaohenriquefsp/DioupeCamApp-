@@ -1,4 +1,4 @@
-package com.example.dioupecam
+package com.dioupe.camstream
 
 import org.junit.Test
 

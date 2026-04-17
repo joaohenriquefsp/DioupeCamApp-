@@ -1,4 +1,4 @@
-package com.example.dioupecam
+package com.dioupe.camstream
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
